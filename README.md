@@ -53,7 +53,8 @@ Enter **clear** to erase the screen.
 
 ## 4 Run an **Nmap scan on an Authorized Target** and Reference the Man Page as needed.
 
-Enter **ifconfig** to locate IP Address. Copy and Paste IP Address,
+Enter **ifconfig** to locate IP Address. Copy and Paste IP Address.
+![Nmap 7](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/378c1ce7-d669-4c05-9c04-52e4dc9ab75f)
 ![Nmap 4 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/09ec6bbe-1b29-46d0-b274-1868a0081aa2)
 
 
@@ -63,17 +64,15 @@ Enter **nmap 172.18.X.XX** to scan. Observer output for open ports.
 ## 5 Run an **Nmap scan using Options** from the Man Page.
 
 Enter **man nmap** and then go to Example 1. A representative Nmap scan.
-![Nmap 5 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/d6e4826d-919d-47c7-a00b-f13d7e3b8e79)
-![Nmap 5 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/c2798ba4-4b92-458d-b829-5f1c0628e564)
 
 Copy and paste **-A -T4 scanme.nmap.org** on the command line and press Enter.
-![Nmap 5 3](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/596512fe-d02b-483f-9194-9aa2aec3c70e)
+![Nmap 5 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/d6e4826d-919d-47c7-a00b-f13d7e3b8e79)
 
 \*\*Scan failed\*\* revisit later.
 
 ## 6 Output Nmap scan results to a File.
 
-Enter **nmap -p 80 -A -oN scan.txt scanme.nmap.org/30**. Observe scan, commands, and switches.
+Enter **nmap -p 80 -A -oN scan.txt scanme.nmap.org/30**. Observe scan, commands, and switches. ****
 
 Enter **ls** to list files. Observe **scan.txt**. Enter **cat scan.txt** to show the content of the file.
 
@@ -91,8 +90,8 @@ Output the scan results to a txt file named: output.txt
 
 Be sure to reference your nmap man page for help.
 
-Enter **nmap -p 22-80 -A -T3 -oN output.txt scanme.nmap.org**
+Enter **nmap -p 22-80 -A -T3 -oN output.txt scanme.nmap.org** ![Nmap L 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/5cfbf870-a943-41dc-ab28-c81c7ff0ff3e)
 
-Enter **ls** to list the files. The file is output.txt
+Enter **ls** to list the files. The file is output.txt. ![Nmap L 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/28e8926d-8817-458f-b899-82b3564c5bae)
 
-Enter **cat output.txt** to show file content.
+Enter **cat output.txt** to show file content. See line 5 in picture above.
