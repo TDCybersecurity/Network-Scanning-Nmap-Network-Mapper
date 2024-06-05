@@ -1,4 +1,6 @@
 # Network-Scanning-Nmap-Network-Mapper
+![image](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/689f386e-53df-4855-9f49-df1ec64fc58e)
+
 
 # **Vulnerability Scanning with Nmap**
 
@@ -96,3 +98,6 @@ Enter **nmap -p 22-80 -A -T3 -oN output.txt scanme.nmap.org** ![Nmap L 1](https:
 Enter **ls** to list the files. The file is output.txt. ![Nmap L 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/28e8926d-8817-458f-b899-82b3564c5bae)
 
 Enter **cat output.txt** to show file content. See line 5 in picture above.
+
+![image](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/461a4d95-8e93-4783-b593-5db29fe99014)
+
