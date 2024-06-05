@@ -63,8 +63,11 @@ Enter **nmap 172.18.X.XX** to scan. Observer output for open ports.
 ## 5 Run an **Nmap scan using Options** from the Man Page.
 
 Enter **man nmap** and then go to Example 1. A representative Nmap scan.
+![Nmap 5 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/d6e4826d-919d-47c7-a00b-f13d7e3b8e79)
+![Nmap 5 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/c2798ba4-4b92-458d-b829-5f1c0628e564)
 
 Copy and paste **-A -T4 scanme.nmap.org** on the command line and press Enter.
+![Nmap 5 3](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/596512fe-d02b-483f-9194-9aa2aec3c70e)
 
 \*\*Scan failed\*\* revisit later.
 
@@ -74,7 +77,7 @@ Enter **nmap -p 80 -A -oN scan.txt scanme.nmap.org/30**. Observe scan, commands,
 
 Enter **ls** to list files. Observe **scan.txt**. Enter **cat scan.txt** to show the content of the file.
 
-##7 Run a Customized Scan on a Target.
+## 7 Run a Customized Scan on a Target.
 
 Perform a nmap scan, scanning **ports 22-80**, on target: **scanme.nmap.org**
 
