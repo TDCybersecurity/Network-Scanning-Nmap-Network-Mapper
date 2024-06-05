@@ -53,9 +53,12 @@ Enter **clear** to erase the screen.
 
 ## 4 Run an **Nmap scan on an Authorized Target** and Reference the Man Page as needed.
 
-Enter **ifconfig** to locate IP Address. Copy and Paste IP Address
+Enter **ifconfig** to locate IP Address. Copy and Paste IP Address,
+![Nmap 4 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/09ec6bbe-1b29-46d0-b274-1868a0081aa2)
 
-Enter **nmap 172.18.X.XX** to scan. Observer output for open ports.
+
+Enter **nmap 172.18.X.XX** to scan. Observer output for open ports. 
+![Nmap 4 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/c11a656d-7834-4b4c-ae4e-fc6670548f64)
 
 ## 5 Run an **Nmap scan using Options** from the Man Page.
 
