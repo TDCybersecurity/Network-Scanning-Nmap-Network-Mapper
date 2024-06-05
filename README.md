@@ -33,15 +33,21 @@ Enter **clear** to erase the screen.
 
 ## 3 Run a **Basic Nmap Scan on a Target**.
 
-Enter **nmap** and then go to the TARGET SPECIFICATION area
 
-Enter **nmap scanme.nmap.org** Observe the output.
 
-Press the up-arrow **key two times**. Observe that your last command appears. Add **/30** to the command
+
+
+Enter **nmap** and then go to the TARGET SPECIFICATION area. ![Nmap 3 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/ea845635-6dfe-4bbc-88d4-0bc5fa0de4d2)
+![Nmap 3](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/32f31c04-873d-41af-a845-c67eced5daec)
+
+Enter **nmap scanme.nmap.org** Observe the output. ![Nmap 3 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/24a4e511-1c95-4bef-b427-b0d2c23138c9)
+
+Press the up-arrow **key two times**. Observe that your last command appears. Add **/30** to the command 
+![Nmap 3 3](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/0771f908-7f7f-4a5f-a0e0-e478223039a6)
 
 This **/30 cider block** specifies the network is 30 bits long and leaving only two bits for the host.
 
-Enter **nmap scanme.nmap.org/30**. Observe both the top and bottom of the output.
+Enter **nmap scanme.nmap.org/30**. Observe both the top and bottom of the output.![Nmap 3 4](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/09768428-ed33-4eac-ae7a-4f8bee6d169b)
 
 Enter **clear** to erase the screen.
 
