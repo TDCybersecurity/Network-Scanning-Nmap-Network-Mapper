@@ -1,13 +1,18 @@
 # Network-Scanning-Nmap-Network-Mapper
 # **Vulnerability Scanning with Nmap**
 
+
+
+
+
+
 **Nmap ("Network Mapper")** is an open-source tool for network exploration and security auditing. It quickly scans large networks but also works on single hosts. Nmap uses raw IP packets to identify available hosts, the services they offer (including versions), their operating systems, and their security measures. While mainly used for security audits, it is also helpful for network inventory, service upgrade management, and monitoring uptime.
 
 ## 1 Verify the **Installation and Version** of Nmap.
 
-Double-click on the **Terminal Icon** to open the **Terminal Window**.
+Double-click on the **Terminal Icon** to open the **Terminal Window**.  ![Nmap 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/697f211a-9661-42b5-a71e-44602fc3f2b5)
 
-Enter **nmap --version** in the **Terminal Window** and press Enter
+Enter **nmap --version** in the **Terminal Window** and press Enter. ![Nmap 1 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/9625c1f9-6d38-40b4-84cf-a0d7ceb3f2d9)
 
 Observe: **Nmap version 7.80**| Observe **Platform: x86\_64-pc-linux-gnu**
 
@@ -17,11 +22,12 @@ Enter **clear** to erase the screen.
 
 ## 2 Access the **Help Feature and Man Page** for Nmap.
 
-Enter **nmap --help** and press Enter. You can the same results when you enter **nmap**.
+Enter **nmap --help** and press Enter. You can the same results when you enter **nmap**.![Nmap 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/61c9d48d-6dc3-4851-8d58-da576bfce268)
+Scroll up and down to view the content of the Nmap, like TARGET SPECIFICATION, HOST DISCOVERY, SCAN TECHNIQUES, and more.  
+![Nmap 2 3](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/215f89f2-5e45-46cb-8d10-6f2fb1a3d00f)
+Observe: The **Nmap manual |** Observe: **EXAMPLES** at the bottom of the screen. ![Nmap 2 1](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/c5f8c20a-67ba-4652-b59e-3b7889ce1cd6)
 
-Observe: The **Nmap manual |** Observe: **EXAMPLES** at the bottom of the screen
-
-Observe the bottom of the screen. You can press **h for help** or press **q to quit**.
+Observe the bottom of the screen. You can press **h for help** or press **q to quit**.![Nmap 2 2](https://github.com/TDCybersecurity/Network-Scanning-Nmap-Network-Mapper/assets/142702123/9e2940f7-20ca-43de-9b7e-e02fad7c4027)
 
 Enter **clear** to erase the screen.
 
